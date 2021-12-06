@@ -28,10 +28,10 @@ class CfgWeapons
 		author= "Silence";
 		weaponPoolAvailable=1;
 		displayName="[MS] Vipers Helmet";
-		picture="\Viper_Helmet\ms_logo.jpg";
+		picture="\Viper_Helmet\ms_logo.paa";
 		model="\Viper_Helmet\viperhelmet";
 		hiddenSelections[] = {"Lights", "LowerHelmet", "MiddleHelmet", "UpperHelmet", "Visor", "Wires"};
-		hiddenSelectionsTextures[] = {"", "viper_helmet\textures\viper_head_headmaterial_2_basecolor.jpg", "viper_helmet\textures\viper_head_headmaterial_3_basecolor.jpg", "viper_helmet\textures\viper_head_headmaterial_1_basecolor.jpg", "viper_helmet\textures\viper_head_headmaterial_2_basecolor.jpg", "viper_helmet\textures\viper_head_headmaterial_3_basecolor.jpg"};
+		hiddenSelectionsTextures[] = {"", "viper_helmet\textures\viper_head_headmaterial_2_basecolor.paa", "viper_helmet\textures\viper_head_headmaterial_3_basecolor.paa", "viper_helmet\textures\viper_head_headmaterial_1_basecolor.paa", "viper_helmet\textures\viper_head_headmaterial_2_basecolor.paa", "viper_helmet\textures\viper_head_headmaterial_3_basecolor.paa"};
 		class ItemInfo: HeadgearItem
 		{
 			mass=50;
@@ -56,7 +56,7 @@ class CfgWeapons
 	{
 		displayName = "[MS] Vipers Helmet (Blue Visor)";
 		hiddenSelections[] = {"Lights", "LowerHelmet", "MiddleHelmet", "UpperHelmet", "Visor", "Wires"};
-		hiddenSelectionsTextures[] = {"", "viper_helmet\textures\viper_head_headmaterial_2_basecolor.jpg", "viper_helmet\textures\viper_head_headmaterial_3_basecolor.jpg", "viper_helmet\textures\viper_head_headmaterial_1_basecolor.jpg", "viper_helmet\textures\viper_head_headmaterial_visorblue.jpg", "viper_helmet\textures\viper_head_headmaterial_3_basecolor.jpg"};
+		hiddenSelectionsTextures[] = {"", "viper_helmet\textures\viper_head_headmaterial_2_basecolor.paa", "viper_helmet\textures\viper_head_headmaterial_3_basecolor.paa", "viper_helmet\textures\viper_head_headmaterial_1_basecolor.paa", "viper_helmet\textures\viper_head_headmaterial_visorblue.paa", "viper_helmet\textures\viper_head_headmaterial_3_basecolor.paa"};
 		class ItemInfo: HeadgearItem
 		{
 			mass = 10;
@@ -64,7 +64,7 @@ class CfgWeapons
 			allowedSlots[] = {UNIFORM_SLOT, BACKPACK_SLOT, VEST_SLOT, HEADGEAR_SLOT};	
 			modelSides[] = {6}; 
 			hiddenSelections[] = {"Lights", "LowerHelmet", "MiddleHelmet", "UpperHelmet", "Visor", "Wires"};
-			hiddenSelectionsTextures[] = {"", "viper_helmet\textures\viper_head_headmaterial_2_basecolor.jpg", "viper_helmet\textures\viper_head_headmaterial_3_basecolor.jpg", "viper_helmet\textures\viper_head_headmaterial_1_basecolor.jpg", "viper_helmet\textures\viper_head_headmaterial_visorblue.jpg", "viper_helmet\textures\viper_head_headmaterial_3_basecolor.jpg"};
+			hiddenSelectionsTextures[] = {"", "viper_helmet\textures\viper_head_headmaterial_2_basecolor.paa", "viper_helmet\textures\viper_head_headmaterial_3_basecolor.paa", "viper_helmet\textures\viper_head_headmaterial_1_basecolor.paa", "viper_helmet\textures\viper_head_headmaterial_visorblue.paa", "viper_helmet\textures\viper_head_headmaterial_3_basecolor.paa"};
 			subItems[] = {"Integrated_NVG_F"};
 			
 			class HitpointsProtectionInfo
@@ -82,7 +82,7 @@ class CfgWeapons
 	{
 		displayName = "[MS] Vipers Helmet (IMC)";
 		hiddenSelections[] = {"Lights", "LowerHelmet", "MiddleHelmet", "UpperHelmet", "Visor", "Wires"};
-		hiddenSelectionsTextures[] = {"", "viper_helmet\Textures_IMC\VIPER_HEAD_HeadMaterial_2_BaseColor.jpg", "viper_helmet\Textures_IMC\viper_head_headmaterial_3_basecolor.jpg", "viper_helmet\Textures_IMC\viper_head_headmaterial_1_basecolor.jpg", "viper_helmet\Textures_IMC\VIPER_HEAD_HeadMaterial_2_BaseColor.jpg", "viper_helmet\Textures_IMC\viper_head_headmaterial_3_basecolor.jpg"};
+		hiddenSelectionsTextures[] = {"", "viper_helmet\Textures_IMC\VIPER_HEAD_HeadMaterial_2_BaseColor.paa", "viper_helmet\Textures_IMC\viper_head_headmaterial_3_basecolor.paa", "viper_helmet\Textures_IMC\viper_head_headmaterial_1_basecolor.paa", "viper_helmet\Textures_IMC\VIPER_HEAD_HeadMaterial_2_BaseColor.paa", "viper_helmet\Textures_IMC\viper_head_headmaterial_3_basecolor.paa"};
 		class ItemInfo: HeadgearItem
 		{
 			mass = 10;
@@ -90,7 +90,7 @@ class CfgWeapons
 			allowedSlots[] = {UNIFORM_SLOT, BACKPACK_SLOT, VEST_SLOT, HEADGEAR_SLOT};	
 			modelSides[] = {6}; 
 			hiddenSelections[] = {"Lights", "LowerHelmet", "MiddleHelmet", "UpperHelmet", "Visor", "Wires"};
-			hiddenSelectionsTextures[] = {"", "viper_helmet\Textures_IMC\VIPER_HEAD_HeadMaterial_2_BaseColor.jpg", "viper_helmet\Textures_IMC\viper_head_headmaterial_3_basecolor.jpg", "viper_helmet\Textures_IMC\viper_head_headmaterial_1_basecolor.jpg", "viper_helmet\Textures_IMC\VIPER_HEAD_HeadMaterial_2_BaseColor.jpg", "viper_helmet\Textures_IMC\viper_head_headmaterial_3_basecolor.jpg"};
+			hiddenSelectionsTextures[] = {"", "viper_helmet\Textures_IMC\VIPER_HEAD_HeadMaterial_2_BaseColor.paa", "viper_helmet\Textures_IMC\viper_head_headmaterial_3_basecolor.paa", "viper_helmet\Textures_IMC\viper_head_headmaterial_1_basecolor.paa", "viper_helmet\Textures_IMC\VIPER_HEAD_HeadMaterial_2_BaseColor.paa", "viper_helmet\Textures_IMC\viper_head_headmaterial_3_basecolor.paa"};
 			subItems[] = {"Integrated_NVG_F"};
 			
 			class HitpointsProtectionInfo
@@ -108,7 +108,7 @@ class CfgWeapons
 	{
 		displayName = "[MS] Vipers Helmet (Militia)";
 		hiddenSelections[] = {"Lights", "LowerHelmet", "MiddleHelmet", "UpperHelmet", "Visor", "Wires"};
-		hiddenSelectionsTextures[] = {"", "viper_helmet\Textures_Militia\VIPER_HEAD_HeadMaterial_2_BaseColor.jpg", "viper_helmet\Textures_Militia\viper_head_headmaterial_3_basecolor.jpg", "viper_helmet\Textures_Militia\viper_head_headmaterial_1_basecolor.jpg", "viper_helmet\Textures_Militia\VIPER_HEAD_HeadMaterial_2_BaseColor.jpg", "viper_helmet\Textures_Militia\viper_head_headmaterial_3_basecolor.jpg"};
+		hiddenSelectionsTextures[] = {"", "viper_helmet\Textures_Militia\VIPER_HEAD_HeadMaterial_2_BaseColor.paa", "viper_helmet\Textures_Militia\viper_head_headmaterial_3_basecolor.paa", "viper_helmet\Textures_Militia\viper_head_headmaterial_1_basecolor.paa", "viper_helmet\Textures_Militia\VIPER_HEAD_HeadMaterial_2_BaseColor.paa", "viper_helmet\Textures_Militia\viper_head_headmaterial_3_basecolor.paa"};
 		class ItemInfo: HeadgearItem
 		{
 			mass = 10;
@@ -116,7 +116,7 @@ class CfgWeapons
 			allowedSlots[] = {UNIFORM_SLOT, BACKPACK_SLOT, VEST_SLOT, HEADGEAR_SLOT};	
 			modelSides[] = {6}; 
 			hiddenSelections[] = {"Lights", "LowerHelmet", "MiddleHelmet", "UpperHelmet", "Visor", "Wires"};
-			hiddenSelectionsTextures[] = {"", "viper_helmet\Textures_Militia\VIPER_HEAD_HeadMaterial_2_BaseColor.jpg", "viper_helmet\Textures_Militia\viper_head_headmaterial_3_basecolor.jpg", "viper_helmet\Textures_Militia\viper_head_headmaterial_1_basecolor.jpg", "viper_helmet\Textures_Militia\VIPER_HEAD_HeadMaterial_2_BaseColor.jpg", "viper_helmet\Textures_Militia\viper_head_headmaterial_3_basecolor.jpg"};
+			hiddenSelectionsTextures[] = {"", "viper_helmet\Textures_Militia\VIPER_HEAD_HeadMaterial_2_BaseColor.paa", "viper_helmet\Textures_Militia\viper_head_headmaterial_3_basecolor.paa", "viper_helmet\Textures_Militia\viper_head_headmaterial_1_basecolor.paa", "viper_helmet\Textures_Militia\VIPER_HEAD_HeadMaterial_2_BaseColor.paa", "viper_helmet\Textures_Militia\viper_head_headmaterial_3_basecolor.paa"};
 			subItems[] = {"Integrated_NVG_F"};
 			
 			class HitpointsProtectionInfo
